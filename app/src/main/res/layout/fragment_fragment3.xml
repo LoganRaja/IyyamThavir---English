@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:background="@drawable/ictc_converted">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/language_english"
+        android:background="#deffffff">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="@dimen/text_small"
+        android:text="What are we?"
+        android:textColor="#dd040d"
+        android:padding="@dimen/padding"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/text_small"
+        android:textStyle="bold"
+        android:text="Integrated And Counseling &amp; Testing Centre"
+        android:textColor="#dd040d"
+        android:padding="@dimen/padding"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding"
+        android:textSize="@dimen/text_tiny"
+        android:textColor="#000"
+        android:text="The Integrated Counseling &amp; Testing Center (ICTC) is a gate-way, entry point for a host of HIV/AIDS related services in prevention &amp; care. In Tamil Nadu there are 1471 centers that offer counseling and testing services. TANSACS is supporting 393 stand-alone ICTCs in Medical Colleges, Government Hospitals, etc. (402 ICTCs are supported by NRHM at block level Primary Health Centers &amp; Community Health Centers). 600 Facility-Integrated ICTCs at PHC level are also providing counseling and testing services. TANSACS initiated 76 Public-Private partnership ICTCs to strengthen PPTCT coverage.\n\n
+The area of expanding our services in the private set up remains an area of challenge and we intend to come up with better and improved strategies for strengthening PPP –ICTCs based on our experience and lessons learnt. The mothers getting omitted in the government program would be mopped.  In order to extend counseling &amp; testing facilities to the remote and inaccessible areas, 17 Mobile ICTC Vans were provided by TANSACS. The mobile ICTC are equipped with TV &amp; DVD and is being manned by a counselor and Lab-Technician to provide counseling and testing services. The vans are operated by the respective District AIDS prevention and Control Units (DAPCUs). During 2012-13, it is proposed to extend the Facility-Integrated Counselling &amp; Testing services to another 502 facilities and 224 PPP hospitals.\n\n
+Mother to child transmission is a major route of HIV transmission and spread of infection. The objective of the PPTCT programme is to scale up prevention and care interventions among women of child –bearing age and their families with a package of services which include primary prevention, family planning, voluntary counseling and confidential testing, anti-retroviral prophylaxis and counseling on infant feeding practices.  The overall coverage of pregnant women in the state under this programme has increased significantly. In order to reduce HIV related morbidity / mortality among the newborns “Early Infant Diagnosis” programme is implemented through 122 ICTCs. PPTCT new regimen (ARV prophylaxis) will be introduced in this year for ANC positive mother and babies.\n\n"
+        />
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

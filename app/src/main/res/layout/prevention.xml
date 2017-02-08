@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding"
+        android:background="@color/background_color"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" HIV Prevention"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/text_medium" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:text="*"
+                android:textColor="@color/text_color"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_large"
+                android:gravity="top|center_horizontal" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="Use a new condom before having sex."
+                android:gravity="start"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_medium"
+                />
+        </LinearLayout>
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:text="*"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_large"
+                android:gravity="top|center_horizontal" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text=" Consider the drug Truvada."
+                android:gravity="start"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_medium"
+                />
+        </LinearLayout>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:text="*"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_large"
+                android:gravity="top|center_horizontal" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text=" Use a clean needle."
+                android:gravity="start"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_medium"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:text="*"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_large"
+                android:textColor="@color/text_color"
+                android:gravity="top|center_horizontal" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="Tell your sexual partners if you have HIV."
+                android:gravity="top"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_medium"
+                />
+        </LinearLayout>  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".2"
+            android:text="*"
+            android:textStyle="bold"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/text_large"
+            android:gravity="top|center_horizontal" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="If you're pregnant, get medical care right away."
+            android:gravity="start"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/text_medium"
+            />
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

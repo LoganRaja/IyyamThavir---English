@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:padding="@dimen/padding"
+    android:gravity="center"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:background="@drawable/my_query">
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_medium"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="For further queries contact (Toll Free)."
+        android:textColor="@color/text_color"
+        android:singleLine="false"
+        android:padding="@dimen/padding"
+        android:id="@+id/question"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"></LinearLayout>
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="#1ab721"
+        android:layout_weight=".5">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_call"
+            android:textColor="#01ff0d"
+            android:textAllCaps="false"
+            android:id="@+id/answer"/>
+    </LinearLayout>
+
+
+</LinearLayout>

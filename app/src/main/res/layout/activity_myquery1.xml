@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:fillViewport="true"
+        android:background="@color/background_color">
+        <view
+            class="android.support.v7.widget.RecyclerView"
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+           android:layout_height="match_parent"
+            />
+    </ScrollView>
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        &lt;!&ndash;<TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor=""
+            android:text="For further queries contact 1800-419-1800 "/>&ndash;&gt;
+       &lt;!&ndash; <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".3"/>&ndash;&gt;
+        </LinearLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+         <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="Ask Your Queries"
+            android:gravity="center"
+            android:textColorHint="@color/background_color"
+            android:textStyle="italic"
+            android:textColor="@color/gray"
+            android:singleLine="false"
+            android:id="@+id/question"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:text="Send"
+            android:textColor="@color/text_color"
+            android:background="@color/dark_green"
+            android:textAllCaps="false"
+            android:id="@+id/answer"/>
+    </LinearLayout>
+
+</LinearLayout>

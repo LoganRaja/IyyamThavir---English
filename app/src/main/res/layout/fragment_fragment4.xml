@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:background="@drawable/sti_converted">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/language_english"
+        android:background="#deffffff">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="@dimen/text_small"
+        android:text="What are we?"
+        android:textColor="#dd040d"
+        android:padding="@dimen/padding"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/text_small"
+        android:textStyle="bold"
+        android:text="Sexually Transmitted Infections"
+        android:textColor="#dd040d"
+        android:padding="@dimen/padding"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding"
+        android:textSize="@dimen/text_tiny"
+        android:textColor="#000"
+        android:text="Sexually transmitted infections / reproductive tract infections (STIs/RTIs) are an important public health problem in India. Studies suggest that 6% of the adult population in India is infected with one or more STI/STD/RTI.  Individuals with STIs/RTIs have a significantly higher chance of acquiring and transmitting HIV. Moreover, STIs/RTIs are also known to cause infertility and reproductive diseases.  Controlling STIs/RTIs helps decrease HIV infection rates and provides a window of opportunity for counseling about HIV prevention and reproductive health. STI prevalence is a good marker for HIV, as both share common modes of transmission"/>
+    </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

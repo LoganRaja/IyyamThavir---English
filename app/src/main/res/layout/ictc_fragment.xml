@@ -1,0 +1,130 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ictc_converted"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:background="@color/text_color_light2">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="#77515151"
+            android:text="About\nICTC"
+            android:layout_margin="@dimen/margin"
+            android:gravity="center"
+            android:textColor="#0017ff"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_large"
+            android:id="@+id/art"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="#77515151"
+            android:text="How ICTC can help you ?"
+            android:layout_margin="@dimen/margin"
+            android:gravity="center"
+            android:textColor="#0017ff"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_large"
+            android:id="@+id/bts"/></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:background="@color/text_color_light2">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="#77515151"
+            android:text="FAQ"
+            android:layout_margin="@dimen/margin"
+            android:gravity="center"
+            android:textColor="#0017ff"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_large"
+            android:id="@+id/ictc"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="#77515151"
+            android:text="Location"
+            android:layout_margin="@dimen/margin"
+            android:gravity="center"
+            android:textColor="#0017ff"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_large"
+            android:id="@+id/ti"/>
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:background="@color/text_color_light2">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:layout_margin="@dimen/margin"
+            android:gravity="center"
+            android:background="#77515151"
+            android:orientation="vertical"
+            android:id="@+id/my_query">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".5"
+                android:src="@drawable/notification"
+                android:scaleType="fitEnd"
+                android:visibility="visible"
+                android:background="#02515151"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:duplicateParentState="true"
+                android:clickable="false"
+                android:background="#00515151"
+                android:gravity="center"
+                android:textColor="#0017ff"
+                android:textAllCaps="false"
+                android:textSize="@dimen/text_large"
+                android:textStyle="bold"
+                android:text="My Queries"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="#77515151"
+            android:text="இடம்"
+            android:layout_margin="@dimen/margin"
+            android:gravity="center"
+            android:textColor="#10543a"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_medium"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

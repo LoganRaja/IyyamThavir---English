@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+    <style name="AppTheme.custom">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+</resources>

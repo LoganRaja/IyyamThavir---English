@@ -1,0 +1,62 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:background="@color/black">
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".09"
+        android:id="@+id/back_pressed"
+        android:background="@drawable/back_button"
+        android:layout_margin="@dimen/padding_small"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text=""
+        android:paddingLeft="@dimen/padding"
+        android:id="@+id/from"
+        android:singleLine="true"
+        android:visibility="visible"
+        android:textColor="@color/text_color"
+        android:background="@color/black"
+        android:textSize="@dimen/text_small"
+        android:gravity="center_vertical"
+        />
+</LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text=""
+        android:id="@+id/to"
+        android:singleLine="true"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text=""
+        android:singleLine="true"
+        android:id="@+id/distance_and_time"
+        android:gravity="center"
+        />
+
+    <fragment
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:id="@+id/map"
+        tools:context="com.compunetconnections.iyyamthavir.LocationActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:background="@drawable/red_ribbon">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/language_english"
+        android:background="#deffffff">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="@dimen/text_small"
+        android:text="What are we?"
+        android:textColor="#dd040d"
+        android:padding="@dimen/padding"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/text_small"
+        android:textStyle="bold"
+        android:text="Targeted Intervention (TI) Program"
+        android:textColor="#dd040d"
+        android:padding="@dimen/padding"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding"
+        android:textSize="@dimen/text_tiny"
+        android:textColor="#000"
+        android:text="For the overall reduction in the epidemic, targeted interventions (TIs) are aimed to effect behaviour change through awareness raising among the high risk groups and clients of sex workers or bridge populations. These interventions are aimed to saturate three high risk groups with information on prevention; address clients of sex workers with safe sex interventions, and build awareness among the spouses of truckers and migrant workers, women aged 15 to 49 and children affected by HIV or vulnerable population groups.\n\n
+Apart from prevention of HIV infection, TIs facilitate prevention and treatment of sexually transmitted diseases as they increase the risk of HIV infection, and are linked to care, support and treatment services for HIV infected."
+        />
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

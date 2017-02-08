@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="60dp"
+    android:orientation="horizontal"
+    android:weightSum="11"
+    android:background="#2A3F52"
+    >
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:src="@drawable/ilogo"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lblListHeader"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:textColor="@color/text_color"
+        android:text="dfgfgff"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_medium"
+        android:padding="@dimen/padding"
+        android:gravity="center_vertical"
+        />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/expand"
+            android:id="@+id/help_group_indicator"
+            />
+    </LinearLayout>
+
+</LinearLayout>

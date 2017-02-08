@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:weightSum="4"
+    android:gravity="center"
+   >
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:layout_margin="@dimen/margin"
+    android:text="ICTC"
+    android:textColor="@color/text_color"
+    android:background="@color/royal_blue"
+    android:id="@+id/bts"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/margin"
+        android:text="STI"
+        android:textColor="@color/text_color"
+        android:background="@color/purple"
+        android:id="@+id/ti"/>
+
+
+</LinearLayout>

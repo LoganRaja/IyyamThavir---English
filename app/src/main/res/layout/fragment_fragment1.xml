@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:background="@drawable/art_converted">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#deffffff"
+    android:id="@+id/language_english">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="@dimen/text_small"
+        android:text="What are we?"
+        android:textColor="#dd040d"
+        android:padding="@dimen/padding"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/text_small"
+        android:textStyle="bold"
+        android:text="Care, Support &amp; Treatment Department"
+        android:textColor="#dd040d"
+        android:padding="@dimen/padding"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding"
+        android:textSize="@dimen/text_tiny"
+        android:textColor="#000"
+        android:text="ART Centres provide comprehensive care to the PLHA registered there. Screening for and management of opportunistic infections, CD4 count and other baseline investigations, provision of first line anti retro viral drugs are done at all ART Centres. Nearly 53.1% of pre ART registered patients were started on ART after assessing their CD4 count and clinical status. Data from monthly report from various ART Centers of state suggest that nearly 2000 PLHAs are registered every month. Around 750 new patients are put on ART every month in the State. In addition to these ART Centres, the State at present has a total of 99 Link ART Centres to bring these services more closer to the PLHA. These Centres function as drug dispensing units.\n\n
+CD4 machine is available in 32 ART Centres in Tamilnadu. Centres which do not have the machine are linked to the nearest ART Centre with the facility so that CD4 is tested routinely and efficiently for all the Pre ART registered clients at baseline and follow up CD4 count every 6 months.\n\n\n\n\n\n\n"
+        />
+
+</LinearLayout>
+    </LinearLayout>
+</ScrollView>

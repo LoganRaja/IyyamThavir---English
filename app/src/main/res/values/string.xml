@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Iyyam Thavir</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about">lkjh</string>
+    <string name="title_activity_location">Map</string>
+    <string name="open">open drawer</string>
+    <string name="closed">close drawer</string>
+    <string name="about_us">
+        TAMILNADU STATE AIDS CONTROL SOCIETY (TANSACS) takes continuous efforts to ensure that People Living with HIV/AIDS have equal access to quality health care services. We stand committed to build an enabling environment for the People Living with HIV/AIDS and providing HIV/AIDS prevention and control services at the State, District and Grass root level.\n\n
+        The State AIDS Project Cell was formed during January 1993. TAMILNADU STATE AIDS CONTROL SOCIETY (TANSACS) was the first registered society in the year 1994 in India for HIV/AIDS prevention and control programme as a mandate of National AIDS Control Organisation (NACO), New Delhi.\n\n
+    In 1986 the first HIV case in India was detected in Madras Medical College, Chennai. Ever since, the first case was identified in Chennai, Tamil Nadu State AIDS Control Society continues its fight against HIV/AIDS. \n\n
+    TANSACS envisages a scenario where no individual would acquire the new HIV infection and every person living with HIV/AIDS have access to quality care and lives with dignity.\n\n
+    TANSACS constantly put up effective strategies in access to prevention, care &amp; support and follow up services through its wide network of Government Institutions and in collaboration with NGOs, CBOs, SHGs, National and International Donor agencies.</string>
+
+    <string-array name="values">
+        <item>HOME</item>
+        <item>BLOOD BANK</item>
+        <item>PREVENTIONS</item>
+        <item>SYMPTOMS</item>
+       </string-array>
+    <string-array name="values1">
+        <item>ABOUT US</item>
+        <item>CONTACT US</item>
+        <item>   </item>
+    </string-array>
+
+
+
+<string name="about_ictc">Integrated Counselling and Testing Centre (ICTC) is an entry point for host of HIV/AIDS related services in prevention and care.  In Tamil Nadu there are 780 Stand Alone ICTCs branded as <b>“Nambikkai Maiyam”</b> providing Counselling and Testing Services located in Government Medical College Hospitals, Government District Head Quarters Hospitals, Government Hospitals and Government Primary Health Centres. </string>>
+
+    <string name="services_sti">There are 156 Designated STI/RTI clinics branded as <b>“Suga Vazhvu Maiyam“</b> (SURAKSHA - Well being clinics) located in Government Medical College Hospitals, Government District Head Quarters Hospitals and Government Hospitals. Here, we are providing STI/RTI and HIV transmission &amp; Prevention Counselling, Treatment/Compliance/Follow up/ Partner treatment/ Condom Promotion.</string>
+
+
+
+    <string name="terms_and_conditions_checkbox">I agree to the Iyyam Thavir™app Terms and Conditions</string>
+    <string name="terms_and_condition">This Iyyam Thavir™app  does not provide medical or any other health care or fitness advice, diagnosis, or treatment. The app and its services are for informational purposes only and are not a substitute for professional medical or health advice, examination, diagnosis, or treatment. Always seek the advice of your physician or other qualified health professional before starting any new treatment, making any changes to existing treatment, or altering in any way your current exercise or diet regimen. Do not delay seeking or disregard medical advice based on information on this Iyyam Thavir™ app .\n\n
+While we try to keep the information as accurate as possible, we disclaim any implied warranty or representation about its accuracy or completeness. The reader assumes full responsibility for using the information on this Iyyam Thavir™ app .\n\n
+This Iyyam Thavir™  app is neither responsible nor liable for any claim, loss or damage resulting from the use of information on this Iyyam Thavir™ app .\n\n
+</string>
+
+
+</resources>

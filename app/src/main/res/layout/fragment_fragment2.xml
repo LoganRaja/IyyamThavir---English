@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:background="@drawable/bts_converted">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/language_english"
+        android:background="#deffffff">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="@dimen/text_small"
+        android:text="What are we?"
+        android:textColor="#dd040d"
+        android:padding="@dimen/padding"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/text_small"
+        android:textStyle="bold"
+        android:text="Blood Safety"
+        android:textColor="#dd040d"
+        android:padding="@dimen/padding"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding"
+        android:textSize="@dimen/text_tiny"
+        android:textColor="#000"
+        android:text="The goal of the blood safety programme is to provide adequate safe blood and blood products to all the needy patients. The specific objective of the blood safety programme is to ensure reduction in the transfusion associated with HIV transmission to 0.5 percent, while making available safe and quality blood within one hour of requirement in a health facility.\n\n
+External Quality Assessment Scheme (EQAS) ensures that the diagnostic test results produced by a laboratory are reliable and accurate. For this, quarterly 20% of HIV Positive and 5% of HIV negative samples are being sent and documented every first week of the quarter (7 days in three months) to State Reference Laboratories(SRL).\n\n
+A separate site is devoted for Online Blood Bank Management System for Voluntary Blood Donor E-Registry and Blood Stock availability."
+        />
+    </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

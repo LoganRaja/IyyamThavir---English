@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/startmain"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="6"
+        android:gravity="bottom"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="@dimen/padding"
+            android:layout_weight="4"
+            android:background="@color/background_color"
+            android:src="@drawable/condom"
+            android:scaleType="fitCenter"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:text="ABOUT CONDOM"
+                android:id="@+id/art"
+                android:textColor="@color/text_color"
+                android:gravity="center"
+                android:background="@drawable/border_light_blue" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:text="HOW WE CAN HELP YOU "
+                android:gravity="center"
+                android:id="@+id/bts"
+                android:background="@drawable/border_light_blue" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:text=" FAQ"
+                android:textColor="@color/text_color"
+                android:gravity="center"
+                android:id="@+id/ictc"
+                android:background="@drawable/border_light_blue" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:weightSum="10"
+                android:gravity="center"
+                android:id="@+id/my_query"
+                android:orientation="horizontal"
+                android:background="@drawable/border_light_blue">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:visibility="gone"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/messagebox_info"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6"
+                    android:text="MY QUERY"
+                    android:id="@+id/prognosis"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_color"
+                    android:gravity="center" />
+                </LinearLayout>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="LOCATION"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:id="@+id/ti"
+                android:gravity="center"
+                android:background="@drawable/border_light_blue" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

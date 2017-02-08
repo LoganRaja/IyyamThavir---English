@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding"
+        android:background="@color/background_color"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+            android:text="What are we?"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:textColor="@color/text_color"
+            android:layout_marginBottom="@dimen/margin"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Care, Support and Treatment (CST)"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:id="@+id/heading_art"
+            android:textColor="@color/text_color"
+            android:gravity="center"
+            android:textSize="@dimen/text_medium"
+            android:layout_marginBottom="@dimen/margin"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blood Transfusion Services (BTS)"
+            android:textStyle="bold"
+            android:textColor="@color/text_color"
+            android:visibility="gone"
+            android:gravity="center"
+            android:id="@+id/heading_bts"
+            android:textSize="@dimen/text_medium"
+            android:layout_marginBottom="@dimen/margin"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Integrated Counselling &amp; Testing Centre (ICTC)"
+            android:textStyle="bold"
+            android:textColor="@color/text_color"
+            android:visibility="gone"
+            android:id="@+id/heading_ictc"
+            android:gravity="center"
+            android:textSize="@dimen/text_medium"
+            android:layout_marginBottom="@dimen/margin"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sexually Transmitted Infection / Reproductive Tract Infections (STI/ RTI)"
+            android:textStyle="bold"
+            android:textColor="@color/text_color"
+            android:visibility="gone"
+            android:id="@+id/heading_sti"
+            android:gravity="center"
+            android:textSize="@dimen/text_medium"
+            android:layout_marginBottom="@dimen/margin"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="Condom"
+            android:textStyle="bold"
+            android:textColor="@color/text_color"
+            android:id="@+id/heading_ti"
+            android:gravity="center"
+            android:textSize="@dimen/text_medium"
+            android:layout_marginBottom="@dimen/margin"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="Prevention of Parent To Child Transmission (PPTCT)"
+            android:textStyle="bold"
+            android:textColor="@color/text_color"
+            android:id="@+id/heading_pptct"
+            android:gravity="center"
+            android:textSize="@dimen/text_medium"
+            android:layout_marginBottom="@dimen/margin"/>
+
+        <com.compunetconnections.iyyamthavir.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:paddingRight="4dp"
+            android:visibility="gone"
+            noghteh:layout_marginBottom="@dimen/margin"
+            android:id="@+id/body_art"
+            noghteh:text="In Tamil Nadu, 55 ART Centres provide comprehensive care to HIV positive clients detected at ICTC and registered at ART centres.  These ART centres provide screening for and management of opportunistic infections, CD4 testing and other baseline investigations, provision of free antiretroviral drugs.  In addition, there are 172 Link ART centres which bring these services more close to the PLHIV.  These centres function as drug dispensing units."
+            noghteh:textColor="@color/text_color"
+            noghteh:textSize="@dimen/text_medium"
+            />
+        <com.compunetconnections.iyyamthavir.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:visibility="gone"
+            android:paddingRight="4dp"
+            noghteh:layout_marginBottom="@dimen/margin"
+            android:id="@+id/body_bts"
+            noghteh:text="Blood Transfusion Services is an integral part of health care system. We are committed to provide adequate, safe and quality Blood and Blood Components to meet the needs of the general public in the State. \n\n
+We aim to achieve 100% collection from voluntary non remunerated donors and enhance the rational use of Blood and Blood Components.\n\n
+TANSACS supports 87 blood banks located in the Government Institutions in the State. Among them 15 are Component Separation Centres.\n\n"
+            noghteh:textColor="@color/text_color"
+            noghteh:textSize="@dimen/text_medium"
+            />
+        <com.compunetconnections.iyyamthavir.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:lineSpacingExtra="3dp"
+            android:paddingRight="4dp"
+            noghteh:layout_marginBottom="@dimen/margin"
+            android:id="@+id/body_ictc"
+            noghteh:text="@string/about_ictc"
+            noghteh:textColor="@color/text_color"
+            noghteh:textSize="@dimen/text_medium"
+            />
+        <com.compunetconnections.iyyamthavir.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:paddingRight="4dp"
+            android:visibility="gone"
+            noghteh:layout_marginBottom="@dimen/margin"
+            android:id="@+id/body_sti"
+            noghteh:text="Sexually Transmitted Infection / Reproductive Tract Infections are an important public health problem in India. Individuals with STI/ RTI have a significantly higher chance of acquiring and transmitting HIV. More over STI/ RTI are also known to cause infertility and reproductive diseases. STI/RTI services decreases HIV infection rate and provides a window of opportunity for Counselling about reproductive health and HIV prevention."
+            noghteh:textColor="@color/text_color"
+            noghteh:textSize="@dimen/text_medium"
+            />
+        <com.compunetconnections.iyyamthavir.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:paddingRight="4dp"
+            android:visibility="gone"
+            noghteh:layout_marginBottom="@dimen/margin"
+            android:id="@+id/body_ti"
+            noghteh:text="Condoms are used to prevent STI, HIV and Pregnancy. Correct, consistent and continuous usage of condom can prevent sexually transmitted infections/ HIV.\n\n
+            Free condoms are available in all the ICTC, STI and ART centres located in all the Government Hospitals."
+            noghteh:textColor="@color/text_color"
+            noghteh:textSize="@dimen/text_medium"
+            />
+
+
+        <com.compunetconnections.iyyamthavir.JustifiedTextView
+            xmlns:noghteh="http://noghteh.ir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:paddingRight="4dp"
+            android:visibility="gone"
+            noghteh:layout_marginBottom="@dimen/margin"
+            android:id="@+id/body_pptct"
+            noghteh:text="PPTCT means Prevention of Parent To Child Transmission program. The objective of the program is to prevent HIV infection to new born and ensure care intervention among antenatal women and their family. TANSACS provides this facility at all the 780 Stand Alone ICTCs in Tamil Nadu. "
+            noghteh:textColor="@color/text_color"
+            noghteh:textSize="@dimen/text_medium"
+            />
+
+
+        
+    </LinearLayout>
+    </ScrollView>

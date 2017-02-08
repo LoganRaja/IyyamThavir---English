@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:fillViewport="true">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+    android:padding="@dimen/padding">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin"
+        android:text="What are we?"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:textColor="@color/text_color"
+        android:layout_marginBottom="@dimen/margin"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Care, Support and Treatment (CST)"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:id="@+id/heading_art"
+        android:textColor="@color/text_color"
+        android:gravity="center"
+        android:textSize="@dimen/text_medium"
+        android:layout_marginBottom="@dimen/margin"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blood Transfusion Services (BTS)"
+        android:textStyle="bold"
+        android:textColor="@color/text_color"
+        android:visibility="gone"
+        android:gravity="center"
+        android:id="@+id/heading_bts"
+        android:textSize="@dimen/text_medium"
+        android:layout_marginBottom="@dimen/margin"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Integrated Counselling &amp; Testing Centre (ICTC)"
+        android:textStyle="bold"
+        android:textColor="@color/text_color"
+        android:visibility="gone"
+        android:id="@+id/heading_ictc"
+        android:gravity="center"
+        android:textSize="@dimen/text_medium"
+        android:layout_marginBottom="@dimen/margin"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sexually Transmitted Infection / Reproductive Tract Infections (STI/ RTI)"
+        android:textStyle="bold"
+        android:textColor="@color/text_color"
+        android:visibility="gone"
+        android:id="@+id/heading_sti"
+        android:gravity="center"
+        android:textSize="@dimen/text_medium"
+        android:layout_marginBottom="@dimen/margin"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Condom"
+        android:textStyle="bold"
+        android:textColor="@color/text_color"
+        android:id="@+id/heading_ti"
+        android:gravity="center"
+        android:textSize="@dimen/text_medium"
+        android:layout_marginBottom="@dimen/margin"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Prevention of Parent To Child Transmission (PPTCT)"
+        android:textStyle="bold"
+        android:textColor="@color/text_color"
+        android:id="@+id/heading_pptct"
+        android:gravity="center"
+        android:textSize="@dimen/text_medium"
+        android:layout_marginBottom="@dimen/margin"/>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding"
+        android:id="@+id/body_art"
+        android:visibility="gone">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:text="*"
+                android:textColor="@color/text_color"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_large"
+                android:gravity="top|center_horizontal" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="Lifelong care to all registered PLHIV."
+                android:gravity="start"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_medium" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:text="*"
+                android:textSize="@dimen/text_large"
+                android:textColor="@color/text_color"
+                android:gravity="top|center_horizontal" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text=" 	Various counselling services."
+                android:gravity="start"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_medium" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:text="*"
+                android:textColor="@color/text_color"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_large"
+                android:gravity="top|center_horizontal" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="	Baseline investigations and periodic CD4 testing."
+                android:gravity="start"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_medium" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:text="*"
+                android:textColor="@color/text_color"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_large"
+                android:gravity="top|center_horizontal" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="Lifelong free treatment to eligible PLHIV."
+                android:gravity="top"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_medium" />
+        </LinearLayout>  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".2"
+            android:text="*"
+            android:textColor="@color/text_color"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_large"
+            android:gravity="top|center_horizontal" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="Screening for and treatment of opportunistic infections."
+            android:gravity="start"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/text_medium" />
+    </LinearLayout>  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".2"
+            android:text="*"
+            android:textColor="@color/text_color"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_large"
+            android:gravity="top|center_horizontal" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="Linkage to various social benefit schemes."
+            android:gravity="start"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/text_medium" />
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding"
+        android:id="@+id/body_bts"
+        android:visibility="gone">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:text="*"
+                android:textColor="@color/text_color"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_large"
+                android:gravity="top|center_horizontal" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="Blood Transfusion Services are provided in the government hospitals with the blood collected from the voluntary donors."
+                android:gravity="start"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_medium" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:text="*"
+                android:textSize="@dimen/text_large"
+                android:textColor="@color/text_color"
+                android:gravity="top|center_horizontal" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="Blood is collected from the healthy donors in the blood banks located in your area and also by conducting Voluntary Blood Donation Camps."
+                android:gravity="start"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_medium" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:text="*"
+                android:textColor="@color/text_color"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_large"
+                android:gravity="top|center_horizontal" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="Whoever wants to donate blood, please approach the nearest Government blood banks."
+                android:gravity="start"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_medium" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding"
+        android:id="@+id/body_ictc"
+        android:visibility="gone">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:text="*"
+                android:textColor="@color/text_color"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_large"
+                android:gravity="top|center_horizontal" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text=" Basic information on HIV/AIDS and psycho social support are provided through counselling services."
+                android:gravity="start"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_medium" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:text="*"
+                android:textSize="@dimen/text_large"
+                android:textColor="@color/text_color"
+                android:gravity="top|center_horizontal" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="Blood test services for HIV screening."
+                android:gravity="start"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_medium" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:text="*"
+                android:textColor="@color/text_color"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_large"
+                android:gravity="top|center_horizontal" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="Linkage and referral services for Tuberculosis, Sexually Transmitted Infection and ART."
+                android:gravity="start"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_medium" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding"
+        android:id="@+id/body_sti"
+
+        android:visibility="gone">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:text="*"
+                android:visibility="gone"
+                android:textColor="@color/text_color"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_large"
+                android:gravity="top|center_horizontal" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="@string/services_sti"
+                android:gravity="start"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_medium" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding"
+        android:id="@+id/body_ti"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:text="*"
+                android:visibility="gone"
+                android:textColor="@color/text_color"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_large"
+                android:gravity="top|center_horizontal" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="Free Condom is available at all the ICTC, STI and ART Centres located in all the Government Hospitals. "
+                android:gravity="top"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_medium" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding"
+        android:id="@+id/body_pptct"
+        android:visibility="gone">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:text="*"
+                android:textColor="@color/text_color"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_large"
+                android:gravity="top|center_horizontal" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text=" All Antenatal mothers and their spouses are counselled and tested for HIV and syphilis."
+                android:gravity="start"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_medium" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:text="*"
+                android:textSize="@dimen/text_large"
+                android:textColor="@color/text_color"
+                android:gravity="top|center_horizontal" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text=" Identified HIV positive mothers are registered under ART program and
+initiated on lifelong ART."
+                android:gravity="start"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_medium" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:text="*"
+                android:textColor="@color/text_color"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_large"
+                android:gravity="top|center_horizontal" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text=" Counselling services on nutritious diet, importance of breast feeding, family planning methods."
+                android:gravity="start"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_medium" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:text="*"
+                android:textColor="@color/text_color"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_large"
+                android:gravity="top|center_horizontal" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="Administering nevirapine syrup to all babies born to HIV positive mothers for minimum 6 to 12 weeks."
+                android:gravity="top"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_medium" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:text="*"
+                android:textColor="@color/text_color"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_large"
+                android:gravity="top|center_horizontal" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="Follow up services to babies born to HIV positive mothers from 6 weeks to 18  months."
+                android:gravity="top"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_medium" />
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
